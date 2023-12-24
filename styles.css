@@ -1,0 +1,354 @@
+/* Reset default browser styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+
+/* Header styles */
+
+header {
+    background-color: #222;
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    width: 75%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav li a:hover {
+    color: #ff8a08;
+}
+
+
+/* Hero section styles */
+
+.hero {
+    padding: 4rem 0;
+    background-color: #ff8a08;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-left {
+    margin-bottom: 2rem;
+}
+
+.hero-left img {
+    width: 22rem;
+    border-radius: 45%;
+}
+
+.hero-right {
+    text-align: left;
+    width: 45%;
+}
+
+
+/* About Me section styles */
+
+.about-me {
+    padding: 80px 6rem;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descreption-card {
+    width: 85%;
+    text-wrap: balance;
+}
+
+.contact-btn {
+    margin-top: 7rem;
+}
+
+.btn {
+    padding: 1rem 3rem;
+    border: 2px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 10px 3px #00000030;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #ff8a08;
+    box-shadow: -4px 3px 10px 3px #00000038;
+    font-weight: 600;
+}
+
+
+/* Skills section styles */
+
+.skills {
+    padding: 80px 6rem;
+    color: #333;
+    text-align: center;
+}
+
+.skill-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 280px;
+    padding: 20px 25px;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 35%);
+    cursor: pointer;
+}
+
+.dot-underline {
+    margin-bottom: 3rem;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #ff8a08;
+    text-decoration-thickness: 8px;
+    text-decoration-style: dotted;
+}
+
+.skill:hover {
+    scale: 1.05;
+    box-shadow: 0 0 15px rgb(0 0 0 / 75%);
+}
+
+.skill-bar {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-level {
+    width: 20%;
+    background-color: #ff8a08;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+/* Projects section styles */
+
+.projects {
+    padding: 80px 6rem;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-card {
+    width: 260px;
+    height: 360px;
+    background-color: #fff;
+    padding: 40px 25px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 35%);
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.project-card img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.project-card:hover {
+    scale: 1.05;
+    box-shadow: 0 0 15px rgb(0 0 0 / 75%);
+}
+
+
+/* Contact section styles */
+
+.contact {
+    padding: 50px 0;
+    background-color: #ff8a08;
+    color: #fff;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form label,
+.contact form input,
+.contact form textarea,
+.contact form input[type="submit"] {
+    margin: 10px 0;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.contact form input[type="submit"] {
+    width: auto;
+    cursor: pointer;
+    background-color: #222;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+
+/* Close Buttun Hide */
+
+nav .menu img {
+    display: none;
+}
+
+nav .menu .menu-list {
+    display: none;
+}
+
+
+/* Footer styles */
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 639px) {
+    nav .menu ul {
+        width: 90%;
+    }
+    .hero-right {
+        text-align: center;
+        width: 95%;
+    }
+    .contact-btn {
+        margin-top: 2.5rem;
+    }
+    .hero-left img {
+        width: 20rem;
+    }
+    .skills {
+        padding: 80px 4rem;
+    }
+    .descreption-card {
+        width: 100%;
+        text-wrap: balance;
+    }
+    .about-me {
+        padding: 80px 4rem;
+    }
+    .projects {
+        padding: 80px 4rem;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    header {
+        padding: 12px 0;
+    }
+    nav .menu ul {
+        display: none;
+    }
+    nav .menu img {
+        display: inline;
+        width: 40px;
+        position: relative;
+        right: 40vw;
+    }
+    nav .menu #close {
+        display: none;
+    }
+    nav .menu #close.active {
+        display: block;
+    }
+    nav .menu #open.active {
+        display: none;
+    }
+    nav .menu.active .menu-list {
+        display: flex;
+        top: 5rem;
+        position: absolute;
+        width: 90%;
+        height: 60vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #000000b0;
+        transition: ease-in;
+        transition-delay: 1s;
+    }
+}

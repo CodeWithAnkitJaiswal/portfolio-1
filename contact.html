@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Whiz Kid Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu" id="list" onclick="show()">
+                <img src="/images/menu_wh.svg" alt="---" id="open">
+                <img src="/images/close_white.svg" id="close" alt="X">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="/contact.html" style="color: #ff8a08;">Contact</a></li>
+                </ul>
+                <div class="menu-list">
+                    <li><a href="/index.html" style="color: #ff8a08;">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="/contact.html" style="color: #ff8a08;">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="emailForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br>
+            <input type="submit" value="Send Email">
+        </form>
+    </section>
+    </div>
+
+    <footer>
+        <p>Connect with me on social media: [Your social media links]</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
